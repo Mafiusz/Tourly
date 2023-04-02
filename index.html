@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="#" />
+        <title>Tourly - Travel agency</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/33e116f8ab.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div class="header__top">
+                <div class="header__top_container">
+                    <a href="tel:+01123467890" class="header__number_box">
+                        <i class="fa-solid fa-phone header__number_icon"></i>
+                        <div class="header__number_content">
+                            <p class="header__number_information">
+                                For Further Inquires
+                            </p>
+                            <p class="header__number">+01 (123) 4678 90</p>
+                        </div>
+                    </a>
+                    <div class="header__logo_box">
+                        <img
+                            src="images/logo.svg"
+                            alt=""
+                            class="header__logo"
+                        />
+                    </div>
+                    <i
+                        class="fa-solid fa-magnifying-glass header__search_icon"
+                    ></i>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="header__bottom_container">
+                    <div class="header__icon_box">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <nav class="navigation" id="navigation">
+                        <ul class="header__nav-links">
+                            <a href="#section-header"><li class="header__nav-link">Home</li></a>
+                            <a href="#"><li class="header__nav-link">about us</li></a>
+                            <a href="#section-popular"><li class="header__nav-link">destination</li></a>
+                            <a href="#packages"><li class="header__nav-link">packages</li></a>
+                            <a href="#gallery"><li class="header__nav-link">gallery</li></a>
+                            <a href="#cta"><li class="header__nav-link">contact us</li></a>
+                        </ul>
+                    </nav>
+                    <a href="#" class="btn btn--blue book-now-nav">book now</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="section-header" id="section-header">
+                <div class="header-container">
+                    <h1 class="heading-primary">journey to explore world</h1>
+                    <p class="heading-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Possimus, voluptatibus ullam dolore eveniet, laudantium
+                        dignissimos labore assumenda, corporis illum odio
+                        ratione tempora doloribus amet enim?
+                    </p>
+                    <div class="heading-btns">
+                        <a href="#" class="btn btn--blue btn--header"
+                            >learn more</a
+                        >
+                        <a href="#" class="btn btn--transparent btn--header"
+                            >book now</a
+                        >
+                    </div>
+                </div>
+            </section>
+            <section class="section-tours" id="section-tours">
+                <div class="tours-container">
+                    <form action="" class="tours__form">
+                        <div class="tours__box">
+                            <label for="" class="tours__box-label">search destination*</label>
+                            <input type="text" placeholder="Enter Destination" class="tours__box-input" required>
+                        </div>
+                        <div class="tours__box">
+                            <label for="" class="tours__box-label">pax number*</label>
+                            <input type="number" placeholder="No.of People" class="tours__box-input" required>
+                        </div>
+                        <div class="tours__box">
+                            <label for="" class="tours__box-label">checkin date*</label>
+                            <input type="date" placeholder="enter destination" class="tours__box-input" required>
+                        </div>
+                        <div class="tours__box">
+                            <label for="" class="tours__box-label">checkout date*</label>
+                            <input type="date" placeholder="enter destination" class="tours__box-input" required>
+                        </div>
+                    
+                        <input type="submit" class="btn btn--tours btn-tour-grid" value="inquire now"></input>
+                    </form>
+                </div>
+            </section>
+
+            <section class="section-popular" id="section-popular">
+                <div class="popular-container">
+                    <h4 class="heading-little">uncover place</h4>
+                    <h2 class="heading-secondary">popular destination</h2>
+                    <p class="popular-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, atque? Consequuntur eaque numquam reprehenderit ab neque. Consectetur impedit qui illo?</p>
+                    <div class="popular-box">
+                        <div class="destination-box ">
+                            <figure class="destination-img">
+                                <img src="images/popular-1.jpg" alt="" class="img-popular">
+                            </figure>
+                            <div class="destination-content">
+                                <span class="country">italy</span>
+                                <span class="city">san miguel</span>
+                                <p class="city-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, unde.</p>
+                                <div class="destination-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination-box ">
+                            <figure class="destination-img">
+                                <img src="images/popular-2.jpg" alt="" class="img-popular">
+                            </figure>
+                            <div class="destination-content">
+                                <span class="country">dubai</span>
+                                <span class="city">burj khalifa</span>
+                                <p class="city-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, unde.</p>
+                                <div class="destination-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destination-box ">
+                            <figure class="destination-img">
+                                <img src="images/popular-3.jpg" alt="" class="img-popular">
+                            </figure>
+                            <div class="destination-content">
+                                <span class="country">japan</span>
+                                <span class="city">kyoto temple</span>
+                                <p class="city-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, unde.</p>
+                                <div class="destination-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn--blue btn--header">more destination</a>
+                </div>
+            </section>
+            <section class="packages" id="packages">
+                <div class="packages-container">
+                    <h4 class="heading-little">popular packages</h4>
+                    <h2 class="heading-secondary">checkout our packages</h2>
+                    <p class="popular-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, atque? Consequuntur eaque numquam reprehenderit ab neque. Consectetur impedit qui illo?</p>
+
+                    <div class="packages-box">
+                        <div class="package-img-content">
+                            <img src="images/packege-1.jpg" alt="" class="package-img">
+                        </div>
+                        <div class="package-content">
+                            <h3 class="heading-tertiary">experience the great holiday on beach</h3>
+                            <p class="package-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae quis recusandae praesentium at quas exercitationem? Recusandae nobis assumenda corrupti.</p>
+                            <div class="package-content-box">
+                                <div class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p class="package-time-contect">7D/6N</p>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="person">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <p class="package-person-contect">pax: 10</p>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="trip-country">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p class="package-trip-contect">Malaysia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-price">
+                            <div class="reviews">
+                                <p class="revievs-count">(25 reviews)</p>
+                                <div class="reviews-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>$750</p>
+                                <span>/per person</span>
+                            </div>
+                            <a href="#" class="btn btn--tours">book now</a>
+                        </div>
+                    </div>
+                    <div class="packages-box">
+                        <div class="package-img-content">
+                            <img src="images/packege-2.jpg" alt="" class="package-img">
+                        </div>
+                        <div class="package-content">
+                            <h3 class="heading-tertiary">Summer Holiday To The Oxolotan River</h3>
+                            <p class="package-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae quis recusandae praesentium at quas exercitationem? Recusandae nobis assumenda corrupti.</p>
+                            <div class="package-content-box">
+                                <div class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p class="package-time-contect">7D/6N</p>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="person">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <p class="package-person-contect">pax: 10</p>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="trip-country">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p class="package-trip-contect">Malaysia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-price">
+                            <div class="reviews">
+                                <p class="revievs-count">(40 reviews)</p>
+                                <div class="reviews-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>$520</p>
+                                <span>/per person</span>
+                            </div>
+                            <a href="#" class="btn btn--tours">book now</a>
+                        </div>
+                    </div>
+                    <div class="packages-box">
+                        <div class="package-img-content">
+                            <img src="images/packege-3.jpg" alt="" class="package-img">
+                        </div>
+                        <div class="package-content">
+                            <h3 class="heading-tertiary">Santorini Island's Weekend Vacation</h3>
+                            <p class="package-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repudiandae quis recusandae praesentium at quas exercitationem? Recusandae nobis assumenda corrupti.</p>
+                            <div class="package-content-box">
+                                <div class="time">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p class="package-time-contect">7D/6N</p>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="person">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <p class="package-person-contect">pax: 10</p>
+                                </div>
+                                <span class="line">|</span>
+                                <div class="trip-country">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p class="package-trip-contect">Malaysia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package-price">
+                            <div class="reviews">
+                                <p class="revievs-count">(40 reviews)</p>
+                                <div class="reviews-stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="price">
+                                <p>$660</p>
+                                <span>/per person</span>
+                            </div>
+                            <a href="#" class="btn btn--tours">book now</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn--blue btn--header">view all packages</a>
+                </div>
+            </section>
+            <section class="gallery" id="gallery">
+                <div class="gallery-container">
+                    <h4 class="heading-little">photo gallery</h4>
+                    <h2 class="heading-secondary">photo's from travellers</h2>
+                    <p class="popular-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, atque? Consequuntur eaque numquam reprehenderit ab neque. Consectetur impedit qui illo?</p>
+                    <div class="gallery-box">
+                        <div class="gallery-photo-box">
+                            <img src="images/gallery-1.jpg" alt="" class="gallery-img">
+                        </div>
+                        <div class="gallery-photo-box">
+                            <img src="images/gallery-2.jpg" alt="" class="gallery-img">
+                        </div>
+                        <div class="gallery-photo-box-big">
+                            <img src="images/gallery-3.jpg" alt="" class="gallery-img">
+                        </div>
+                        <div class="gallery-photo-box">
+                            <img src="images/gallery-4.jpg" alt="" class="gallery-img">
+                        </div>
+                        <div class="gallery-photo-box">
+                            <img src="images/gallery-5.jpg" alt="" class="gallery-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cta" id="cta">
+                <div class="cta-container">
+                    <div class="cta-content">
+                        <h3 class="cta-heading-secondary">call to action</h3>
+                        <h2 class="cta-primary">ready for unforgatable travel. remember us!</h2>
+                        <p class="cta-content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellendus dolor eaque, debitis deserunt aspernatur dolores rem pariatur dolorem non!</p>
+                    </div>
+                    <a href="#" class="btn btn--tours btn--cta">contact us!</a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="footer-top">
+                <div class="footer-top-container">
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <img src="images/logo.svg" alt="" class="footer-img">
+                        </div>
+                        <p class="footer-content-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, delectus voluptas harum soluta necessitatibus eum illo ipsum libero accusamus minus unde, maxime quod esse natus!</p>
+                    </div>
+                    <div class="footer-contact">
+                        <span>contact us</span>
+                        <hr>
+                        <p>Feel free to contact and reach us!</p>
+                        <div class="footer-contact-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+01(123)456790" class="footer_number">+01 (123) 4567 90</a>
+                        </div>
+                        <div class="footer-contact-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@tourly.com" class="footer_email">info@tourly.com</a>
+                        </div>
+                        <div class="footer-contact-box">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <a href="#" class="footer_navigation">3146 Koontz, California</a>
+                        </div>
+                    </div>
+                    <div class="footer-form">
+                        <p class="footer-form-text">
+                            Subscribe our newsletter for more update & news!
+                        </p>
+                        <input type="email" placeholder="Enter your Email" class="footer_input" required>
+                        <input type="submit" href="#" class="btn btn--transparent btn--footer" value="Subscribe"></input>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-container">
+                    <div class="footer-bootom-left">
+                        Created by Mateusz Gosiewski. Design and photos took from <a href="https://www.youtube.com/watch?v=FYFmQEpZywc&t" target="_blank">toturial.</a>
+                    </div>
+                    <div class="footer-bootom-right">
+                        <a href="https://www.facebook.com/matelusz28/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Mafiusz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mateusz-gosiewski-aa138b233/" target="_blank"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
